@@ -1,0 +1,26 @@
+[
+    {
+      "id": "6432d8acd16403ab06ee228c",
+      "icon": "../src/assets/Icons/accounts 1.png",
+      "noOfJobs": 159,
+      "Title": "Account & Finance"
+    },
+    {
+      "id": "6432d8ac3eff52eeafc08d75",
+      "icon": "../src/assets/Icons/business 1.png",
+      "noOfJobs": 62,
+      "Title": "Creative Design"
+    },
+    {
+      "id": "../src/assets/Icons/social-media 1.png",
+      "icon": "",
+      "noOfJobs": 61,
+      "Title": "Marketing & Sales"
+    },
+    {
+      "id": "6432d8ac580bc4c4c6fb4f73",
+      "icon": "../src/assets/Icons/chip 1.png",
+      "noOfJobs": 121,
+      "Title": "Engineering Job"
+    }
+  ]
