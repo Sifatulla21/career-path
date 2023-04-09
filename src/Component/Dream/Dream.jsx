@@ -1,12 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Category Card/Card';
+import Feature from '../Featured/Feature';
 import './Dream.css'
 const Dream = () => {
     const [categories, setCategories] = useState([]);
+    const [features, setFeatures] = useState([]);
     useEffect(() => {
         fetch('category.json')
             .then(res => res.json())
             .then(data => setCategories(data))
+    }, []);
+    useEffect(() => {
+        fetch('details.json')
+            .then(res => res.json())
+            .then(data => setFeatures(data))
     }, []);
     // console.log(jobs);
     return (
@@ -22,7 +29,7 @@ const Dream = () => {
                 </div>
             </div>
             <div>
-                <div className="category-head">
+            <div className="category-head">
                     <h1>Job Category List</h1>
                     <p>Explore thousands of job opportunities with all the information you need.Its your future</p>
                 </div>
@@ -32,6 +39,20 @@ const Dream = () => {
                             key={category.id}
                             category={category}
                         ></Card>)
+                    }
+                </div>
+            </div>
+            <div>
+            <div className="feature-head">
+                    <h1>Featured Jobs</h1>
+                    <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                </div>
+                <div className="featured-area">
+                    {
+                        features.map(feature => <Feature
+                            key={feature.id}
+                            feature={feature}
+                        ></Feature>)
                     }
                 </div>
             </div>

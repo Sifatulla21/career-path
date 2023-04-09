@@ -1,0 +1,24 @@
+.featured-card{
+    width: 648px;
+    height: 392px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 20px;
+}
+.job-type{
+    display: flex;
+    justify-content: space-around;
+}
+.job-type p{
+    border: 1px solid #7E90FE;
+    color: #7E90FE;
+    width: 109px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-salary{
+    display: flex;
+    justify-content: space-around;
+}

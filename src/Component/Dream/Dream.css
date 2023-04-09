@@ -20,3 +20,17 @@
 .category-area{
     display: flex;
 }
+.feature-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px;
+}
+.featured-area{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    gap: 10px;
+}
