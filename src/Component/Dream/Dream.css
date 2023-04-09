@@ -1,0 +1,22 @@
+.dream-container{
+    display: flex;
+    align-items: center;
+}
+.dream-container img{
+    width: 716px;
+    height: 644px;
+}
+.coloredTxt{
+    color: #7E90FE;
+}
+
+.category-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px;
+}
+.category-area{
+    display: flex;
+}
