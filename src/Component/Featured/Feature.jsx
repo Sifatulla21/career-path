@@ -2,8 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faDollarSign } from '@fortawesome/free-solid-svg-icons'
 import './Feature.css'
+import { Link } from 'react-router-dom';
 const Feature = ({feature}) => {
-    const {picture, salary, title, cName, jType, jPlace, location } = feature;
+    const {id,picture, salary, title, cName, jType, jPlace, location } = feature;
     return (
         <div className="featured-card">
             <img src={picture} alt="" />
@@ -17,7 +18,7 @@ const Feature = ({feature}) => {
                 <p><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
                 <p><FontAwesomeIcon icon={faDollarSign} /> Salary: {salary}K</p>
             </div>
-            <button className="apply-btn">View Details</button>
+            <Link to={`/details/${id}`}><button className="apply-btn">View Details</button></Link>
         </div>
     );
 };

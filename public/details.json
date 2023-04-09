@@ -1,6 +1,6 @@
 [
     {
-      "id": "6432dc08d505bd50d99ff19b",
+      "id": "1",
       "picture": "../src/assets/All Images/google-1-1 1.png",
       "salary": 280,
       "title": "Technical Database Engineer",
@@ -17,7 +17,7 @@
       "experience": "2-3 Years in this field."
     },
     {
-      "id": "6432dc083c4a8698baa49e27",
+      "id": "2",
       "picture": "../src/assets/All Images/netflix-4 1.png",
       "salary": 230,
       "title": "Senior Product Designer",
@@ -33,7 +33,7 @@
       "experience": "2-3 Years in this field."
     },
     {
-      "id": "6432dc081abc49657729729b",
+      "id": "3",
       "picture": "../src/assets/All Images/tesla-9 1.png",
       "salary": 280,
       "title": "Software Engineer",
@@ -49,7 +49,7 @@
       "experience": "2-3 Years in this field."
     },
     {
-      "id": "6432dc08e4e0ea67863c5eb1",
+      "id": "4",
       "picture": "../src/assets/All Images/Group 10021.png",
       "salary": 200,
       "title": "Software Engineer",
@@ -66,7 +66,7 @@
       "experience": "2-3 Years in this field."
     },
     {
-      "id": "6432dc0883c83e4983d65440",
+      "id": "5",
       "picture": "../src/assets/All Images/Group 10021.png",
       "salary": 400,
       "title": "Senior Product Designer",
@@ -83,7 +83,7 @@
       "experience": "2-3 Years in this field."
     },
     {
-      "id": "6432dc08f67929b57ea27993",
+      "id": "6",
       "picture": "../src/assets/All Images/google-1-1 1.png",
       "salary": 330,
       "title": "Project Manager",
