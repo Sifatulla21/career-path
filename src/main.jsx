@@ -12,6 +12,7 @@ import Statistics from './Component/Statistics/Statistics';
 import Blog from './Component/Blog/Blog'
 import Dream from './Component/Dream/Dream';
 import Details from './Component/Details/Details';
+import jobLoader from './Loaders/selectedJobs';
 
 
 
@@ -31,7 +32,8 @@ const router = createBrowserRouter([
       },
       {
         path: 'jobs',
-        element: <Jobs></Jobs>
+        element: <Jobs></Jobs>,
+        loader: jobLoader
       },
       {
         path: 'blog',
