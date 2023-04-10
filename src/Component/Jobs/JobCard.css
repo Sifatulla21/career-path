@@ -1,0 +1,16 @@
+.job-card-body{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.job-card-body img{
+    width: 140px;
+    height: 140px;
+}
+.job-card-detail{
+    display: flex;
+    flex-direction: column;
+}
