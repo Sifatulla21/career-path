@@ -18,3 +18,16 @@
     width: 350px;;
 
 }
+@media only screen and (max-width: 688px){
+    .selected-job{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .job-details-card{
+        max-width: 90vw;
+    }
+    .apply-btn{      
+        max-width:fit-content; 
+    }
+}

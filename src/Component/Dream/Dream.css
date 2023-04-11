@@ -39,3 +39,22 @@
     color: white;
     width: 300px;
 }
+
+@media only screen and (max-width: 688px){
+    .dream-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .dream-container img{
+        max-width: 90vw;
+    }
+    .category-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .featured-area{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
