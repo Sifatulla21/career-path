@@ -4,7 +4,7 @@ import JobCard from './JobCard';
 import './Jobs.css'
 const Jobs = () => {
     const JobData = useLoaderData();
-    const sortedRemote = JobData.filter(job => job.jPlace === "Remote");
+    const sortedRemote = JobData.filter(job => job.jPlace === "Remote") ;
     const sortRemote = () => {
         const sortedRemote = JobData.filter(job => job.jPlace === "Remote");
             if(sortedRemote){

@@ -34,3 +34,8 @@
     justify-items: center;
     gap: 10px;
 }
+.show-all-btn{
+    background-color: cornflowerblue;
+    color: white;
+    width: 300px;
+}

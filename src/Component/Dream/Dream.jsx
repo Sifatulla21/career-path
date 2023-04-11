@@ -4,7 +4,11 @@ import Feature from '../Featured/Feature';
 import './Dream.css'
 const Dream = () => {
     const [categories, setCategories] = useState([]);
+    const [showAll, setShowAll] = useState(false);
     const [features, setFeatures] = useState([]);
+    const handleShowAll = () =>{
+        setShowAll(true);
+    }
     useEffect(() => {
         fetch('category.json')
             .then(res => res.json())
@@ -20,7 +24,7 @@ const Dream = () => {
         <div>
             <div className="dream-container">
                 <div>
-                    <h1>One Step Closer To Your <span className="coloredTxt">Dream Job</span></h1>
+                    <h1>One Step Closer To Your <span  className="coloredTxt">Dream Job</span></h1>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                     <button className="apply-btn">Get Started</button>
                 </div>
@@ -49,10 +53,14 @@ const Dream = () => {
                 </div>
                 <div className="featured-area">
                     {
-                        features.map(feature => <Feature
+                         features.slice(0,showAll ? features.length : 4).map(feature => <Feature
                             key={feature.id}
                             feature={feature}
                         ></Feature>)
+                    }
+                    {
+                       showAll ||  <button onClick={() => handleShowAll()} className="show-all-btn">Show All</button>
+
                     }
                 </div>
             </div>
