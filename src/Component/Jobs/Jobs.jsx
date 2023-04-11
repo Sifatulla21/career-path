@@ -24,7 +24,6 @@ const Jobs = () => {
                     data={data}
                 ></JobCard>)
             }
-            <h3>hello: {sortedRemote.length} </h3>
             {/* {
                 sortedRemote.map(remote => <JobCard
                     remote={remote}

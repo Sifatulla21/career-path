@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "picture": "../src/assets/All Images/google-1-1 1.png",
+      "picture": "google-1-1 1.png",
       "salary": 280,
       "title": "Technical Database Engineer",
       "cName": "Google LLC",
@@ -18,7 +18,7 @@
     },
     {
       "id": "2",
-      "picture": "../src/assets/All Images/netflix-4 1.png",
+      "picture": "netflix-4 1.png",
       "salary": 230,
       "title": "Senior Product Designer",
       "cName": "Netflix",
@@ -34,7 +34,7 @@
     },
     {
       "id": "3",
-      "picture": "../src/assets/All Images/tesla-9 1.png",
+      "picture": "tesla-9 1.png",
       "salary": 280,
       "title": "Software Engineer",
       "cName": "Tesla",
@@ -50,7 +50,7 @@
     },
     {
       "id": "4",
-      "picture": "../src/assets/All Images/Group 10021.png",
+      "picture": "Group 10021.png",
       "salary": 200,
       "title": "Software Engineer",
       "cName": "AirBNB",
@@ -67,7 +67,7 @@
     },
     {
       "id": "5",
-      "picture": "../src/assets/All Images/Group 10021.png",
+      "picture": "Group 10021.png",
       "salary": 400,
       "title": "Senior Product Designer",
       "cName": "AirBNB",
@@ -84,7 +84,7 @@
     },
     {
       "id": "6",
-      "picture": "../src/assets/All Images/google-1-1 1.png",
+      "picture": "google-1-1 1.png",
       "salary": 330,
       "title": "Project Manager",
       "cName": "Google LLC",
