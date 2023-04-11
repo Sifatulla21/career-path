@@ -29,10 +29,15 @@ const Jobs = () => {
                 }
             </div>
             {
-                sort ? sort.map(data => <JobCard
+                sortRemoteBtn ? sort.map(data => <JobCard
                     key={data.id}
                     data={data}
-                ></JobCard>)  : JobData.map(data => <JobCard
+                ></JobCard>)  : 
+                sortOnSiteBtn ? sort.map(data => <JobCard
+                    key={data.id}
+                    data={data}
+                ></JobCard>) :
+                JobData.map(data => <JobCard
                     key={data.id}
                     data={data}
                 ></JobCard>) 

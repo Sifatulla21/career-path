@@ -20,7 +20,7 @@ const JobCard = ({ data }) => {
                 <p><FontAwesomeIcon icon={faDollarSign} /> Salary: {salary}K</p>
             </div>
             </div>
-            <Link to={`/details/${id}`}><button className="apply-btn">View Details</button></Link>
+            <Link to={`/details/${id}`}><button className="all-btn">View Details</button></Link>
         </div>
     );
 };

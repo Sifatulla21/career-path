@@ -26,7 +26,7 @@ const Dream = () => {
                 <div>
                     <h1>One Step Closer To Your <span  className="coloredTxt">Dream Job</span></h1>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
-                    <button className="apply-btn">Get Started</button>
+                    <button className="all-btn">Get Started</button>
                 </div>
                 <div>
                     <img src="P3OLGJ1 copy 1.png" alt="" />

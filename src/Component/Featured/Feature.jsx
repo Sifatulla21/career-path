@@ -18,7 +18,7 @@ const Feature = ({feature}) => {
                 <p><FontAwesomeIcon icon={faLocationDot} /> {location}</p>
                 <p><FontAwesomeIcon icon={faDollarSign} /> Salary: {salary}K</p>
             </div>
-            <Link to={`/details/${id}`}><button className="apply-btn">View Details</button></Link>
+            <Link to={`/details/${id}`}><button className="all-btn">View Details</button></Link>
         </div>
     );
 };
