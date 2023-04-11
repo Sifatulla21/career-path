@@ -2,7 +2,7 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import DetailsArea from './DetailsArea';
 import './Details.css'
-
+ 
 const Details = () => {
     const data = useLoaderData();
     const id = useParams();

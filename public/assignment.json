@@ -1,0 +1,42 @@
+[
+    {
+      "aId": "1",
+      "marks": 60,
+      "aName": "A1"
+    },
+    {
+      "aId": "2",
+      "marks": 60,
+      "aName": "A2"
+    },
+    {
+      "aId": "3",
+      "marks": 57,
+      "aName": "A3"
+    },
+    {
+      "aId": "4",
+      "marks": 50,
+      "aName": "A4"
+    },
+    {
+      "aId": "5",
+      "marks": 60,
+      "aName": "A5"
+    },
+    {
+      "aId": "6",
+      "marks": 54,
+      "aName": "A6"
+    },
+    {
+      "aId": "7",
+      "marks": 60,
+      "aName": "A7"
+    },
+    {
+      "aId": "8",
+      "marks": 60,
+      "aName": "A8"
+    }
+  ]

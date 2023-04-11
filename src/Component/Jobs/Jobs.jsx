@@ -4,6 +4,7 @@ import JobCard from './JobCard';
 import './Jobs.css'
 const Jobs = () => {
     const JobData = useLoaderData();
+    const sortedRemote = JobData.filter(job => job.jPlace === "Remote");
     const sortRemote = () => {
         const sortedRemote = JobData.filter(job => job.jPlace === "Remote");
             if(sortedRemote){
@@ -23,6 +24,12 @@ const Jobs = () => {
                     data={data}
                 ></JobCard>)
             }
+            <h3>hello: {sortedRemote.length} </h3>
+            {/* {
+                sortedRemote.map(remote => <JobCard
+                    remote={remote}
+                ></JobCard>)
+            } */}
         </div>
     );
 };
