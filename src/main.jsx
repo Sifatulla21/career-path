@@ -13,6 +13,7 @@ import Blog from './Component/Blog/Blog'
 import Dream from './Component/Dream/Dream';
 import Details from './Component/Details/Details';
 import jobLoader from './Loaders/selectedJobs';
+import Error from './Component/Error/Error';
 
 
 
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
         path: 'details/:jobId',
         element: <Details></Details>,
         loader: () => fetch('/details.json'),
+      },
+      {
+        path: '*',
+        element: <Error></Error>
       }
     ]
   }
